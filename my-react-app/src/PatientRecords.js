@@ -167,35 +167,7 @@ function PatientRecords() {
     }
   };
 
-  const deleteRecord = async (id) => {
-    const token = localStorage.getItem('token');
-    
-    if (!token) {
-      showNotification('Please login first', 'error');
-      return;
-    }
-
-    try {
-      const response = await fetch(`http://34.107.46.116/api/appointments/${id}`, {
-        method: 'DELETE',
-        headers: {
-          'Authorization': `Bearer ${token}`,
-          'Accept': 'application/json'
-        }
-      });
-
-      if (response.ok) {
-        await fetchAppointments();
-        showNotification('Record deleted successfully!', 'success');
-      } else {
-        const errorData = await response.json().catch(() => ({}));
-        showNotification('Failed to delete record: ' + (errorData.message || 'Unknown error'), 'error');
-      }
-    } catch (error) {
-      console.error('Error deleting record:', error);
-      showNotification('Error deleting record. Please try again.', 'error');
-    }
-  };
+  // Old deleteRecord function removed - now using confirmDelete with modal confirmation
 
   const handlePrint = () => {
     window.print();
