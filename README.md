@@ -1,4 +1,4 @@
-# 🏥 Healix - نظام البوابة الطبية الإلكترونية
+#  Healix  
 
 <div dir="rtl">
 
@@ -576,42 +576,6 @@ npm run build
 4. Push للـ branch (`git push origin feature/AmazingFeature`)
 5. فتح Pull Request
 
-</div>
-
----
-
-## 📄 الرخصة | License
-
-<div dir="rtl">
-
-هذا المشروع مرخص تحت رخصة ISC. راجع ملف `LICENSE` للمزيد من التفاصيل.
-
-</div>
-
----
-
-## 📞 التواصل | Contact
-
-<div dir="rtl">
-
-للأسئلة والاستفسارات:
-- البريد الإلكتروني: support@healix.com
-- GitHub Issues: [فتح مشكلة جديدة](../../issues)
-
-</div>
-
----
-
-## 🙏 شكر وتقدير | Acknowledgments
-
-<div dir="rtl">
-
-- React Team - على المكتبة الرائعة
-- Create React App - على البداية السهلة
-- Font Awesome - على الأيقونات الجميلة
-- المجتمع المفتوح المصدر - على الدعم المستمر
-
-</div>
 
 ---
 
